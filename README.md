@@ -1,8 +1,8 @@
 # LiftControlSystem
 
-Get latest to your local
-Set LiftControlSystem.UI as startup project in VS
-Run
+- Get latest to your local
+- Set LiftControlSystem.UI as startup project in VS
+- Run
 
 There are a few test scenarios in Program.cs, including as per below 
 
