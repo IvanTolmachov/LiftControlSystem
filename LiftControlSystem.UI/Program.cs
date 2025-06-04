@@ -1,7 +1,7 @@
 ﻿using LiftControlSystem.Application;
 using LiftControlSystem.Domain.Entities;
 
-var liftController = new LiftController(10, new FirstInFirstServedStrategy());
+var liftController = new LiftController(10, new ClosestFirstStrategy());
 
 // Simulate some button presses
 Console.WriteLine("---------scenario 1-----------------------");

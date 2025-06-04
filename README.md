@@ -19,7 +19,7 @@ Some test cases:
 - Passenger 1 summons lift to go up from L2. Passenger 2 summons lift to go down from L4. Passenger 1 chooses to go to L6. Passenger 2 chooses to go to Ground Floor
 - Passenger 1 summons lift to go up from Ground. They choose L5. Passenger 2 summons lift to go down from L4. Passenger 3 summons lift to go down from L10. Passengers 2 and 3 choose to travel to Ground.
 
-Currently only one strategy is implemented (First In First Served) at a base level
+Currently only one strategy is implemented (Closest First Served) at a base level
 
 TODO
 - validation of inputs e.g. Floors within the range etc

@@ -3,7 +3,7 @@ using LiftControlSystem.Domain.Entities;
 
 namespace LiftControlSystem.Application
 {
-    public class FirstInFirstServedStrategy : ILiftOperationStrategy
+    public class ClosestFirstStrategy : ILiftOperationStrategy
     {
         public IRequest ChooseNextJob(int currentFloor, ref List<IRequest> requestQueue)
         {
